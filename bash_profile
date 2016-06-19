@@ -7,3 +7,5 @@ PYTHONSTARTUP=~/.pystartup
 WORKON_HOME=$HOME/.virtualenvs
 
 export PATH PYTHONSTARTUP WORKON_HOME
+
+source /usr/local/bin/virtualenvwrapper.sh
