@@ -2,6 +2,8 @@ if [ -f ~/.bashrc ]; then
     source ~/.bashrc
 fi
 
-export PATH=$HOME/bin:$PATH
-export PYTHONSTARTUP=~/.pystartup
-export WORKON_HOME=$HOME/.virtualenvs
+PATH=$HOME/bin:$PATH
+PYTHONSTARTUP=~/.pystartup
+WORKON_HOME=$HOME/.virtualenvs
+
+export PATH PYTHONSTARTUP WORKON_HOME
