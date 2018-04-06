@@ -4,6 +4,14 @@
 #
 # Store the file in ~/.pystartup, and set an environment variable to point
 # to it:  "export PYTHONSTARTUP=~/.pystartup" in bash.
+#
+#
+#
+# Greetings future self!  Are you getting an error while trying to load
+# your python history file?  Blitz it, run python, exit with exit() function
+# instead of ctrl^d...  ctrl^d has been the bain of this evening 20170614.
+#
+#
 
 import atexit
 import os

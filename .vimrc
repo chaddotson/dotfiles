@@ -10,6 +10,7 @@ set expandtab
 
 set autoindent
 
+colo desert
 syntax on
 
 set number
